@@ -1,8 +1,10 @@
 <?php 
 session_start();
 
-//session_unset();
+//remove todas as variáveis da sessão
+session_unset();
 
+//destrói a sessão
 session_destroy();
 
 
